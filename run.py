@@ -4,12 +4,16 @@ from flask import Flask
 from flask import jsonify
 
 from wxcloudrun import app
+from picDeal import pointFind
 
 app = Flask(__name__)
 
 @app.route('/jiance', methods=['GET', 'POST'])
 def jiance():
-    return jsonify(1)
+    pointPicPath = 'uploadPic/img.png'
+    dxfPointRes = pointFind(pointPicPath)
+    print(dxfPointRes)
+    return jsonify(dxfPointRes)
 
 
 # 启动Flask Web服务
