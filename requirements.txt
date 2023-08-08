@@ -8,15 +8,3 @@ MarkupSafe==2.0.1
 PyMySQL==1.0.2
 SQLAlchemy==1.4.29
 Werkzeug==2.0.2
-matplotlib
-numpy
-opencv-python
-Pillow
-PyYAML
-requests
-scipy
-torch
-torchvision
-tqdm
-pandas
-seaborn
