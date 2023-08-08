@@ -8,7 +8,6 @@ MarkupSafe==2.0.1
 PyMySQL==1.0.2
 SQLAlchemy==1.4.29
 Werkzeug==2.0.2
-sqlite3
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.2
